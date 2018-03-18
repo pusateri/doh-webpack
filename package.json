@@ -37,6 +37,7 @@
     "webpack-dev-server": "^3.1.1"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "dns-packet": "^4.1.0"
   }
 }
