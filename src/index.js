@@ -22,7 +22,7 @@ function send(qname, rrtype, url) {
     url: url,
     method: 'post',
     headers: {
-      'Content-Type': 'application/dns-udpwireformat',
+      'Content-Type': 'application/dns-message',
     },
     data: buf
   })
